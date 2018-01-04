@@ -2,8 +2,7 @@ Title:
 Date: 2010-12-03 10:20
 Category: pay
 Slug: pay
-<center>
-
+<img src="{photo}misc/alipay.png" width=150><br/>
 <div class="form_container">
     <form id="myform" onsubmit="return handle_form_submission()">
     充值账号:   <input type="text" name="account" value=""><br/>
@@ -17,5 +16,4 @@ function handle_form_submission()
     alert('抱歉,充值系统维护中...');
 }
 </script>
-</center>
 

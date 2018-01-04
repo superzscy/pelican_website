@@ -6,7 +6,7 @@ import os
 AUTHOR = u'admin'
 SITENAME = u'Valkyrie Studios'
 SITEURL = ''
-# THEME = "themes/pure_theme"
+THEME = "themes/my_notmyidea"
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
@@ -25,7 +25,10 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
     ('首页', '/'),
-    ('支付中心', '/pay.html'),
+    ('家长监护', '/parents.html'),
+    ('产品中心', '/products.html'),
+    ('服务项目', '/services.html'),
+    ('充值中心', '/pay.html'),
     ('加入我们', '/careers.html'),
     ('联系我们', '/contactUs.html'),
 )
